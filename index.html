@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,305 +8,352 @@
     <title>Event Management</title>
     <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
 
-<!----navbar------->
-<div class="nav-bar">
-    <img src="./images/bfgi.png">
-    <div class="menu-right">
-        <span onClick="myFunction()">&#9776;</span>
-       <ul id="menu">
-        <li><a href="#">Home</a></li>    
-        <li><a href="#">Contact us</a></li>    
-        <li>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Events
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
-                <li><a class="dropdown-item" href="#">Result</a></li>
-                <li><a class="dropdown-item" href="#">Add Event</a></li>
-              </ul>
-            </div></li>   
-        <li><!-- Example single danger button -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Account
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Create New Account</a></li>
-                <li><a class="dropdown-item" href="#">Login</a></li>
-                
-              </ul>
-            </div></li>
-        </ul>
-    </div>
-</div>   
+    <!----navbar------->
+    <div class="nav-bar">
+        <img src="./images/bfgi.png">
+        <div class="menu-right">
+            <span onClick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Events
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+                            <li><a class="dropdown-item" href="#">Result</a></li>
+                            <li><a class="dropdown-item" href="#">Add Event</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="signup.html">Create New Account</a></li>
+                            <li><a class="dropdown-item" href="login.html">Login</a></li>
 
-<!----navbar end------->
-
-
-
-<!----hero part----->
-
-<div  class="heromain">
-    <div data-aos="fade-up" class="hero-text">
-        <h1 data-aos="fade-right">Get ALL The Event Details Of BFCET </h1>
-        <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, officia! Facilis, rem quo? Ut, aperiam minima doloribus repellendus dolore consectetur asperiores debitis et ea rem quasi aspernatur fugiat quaerat provident.</p>
-        <a data-aos="fade-right" href="#"> Explore Event</a>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Clubs</a></li>
+            </ul>
+        </div>
     </div>
 
-    <div data-aos="fade-left" class="hero-image">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/team.webp" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="/images/team.webp" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/team.webp" alt="">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>
+    <!----navbar end------->
 
 
 
+    <!----hero part----->
 
-</div>
-<!----hero part end----->
-
-
-
-
-
-<!---about section----->
-<div data-aos="fade-up" class="about">
-    <div data-aos="fade-up" class="about-text">
-        <h1 data-aos="fade-up">About</h1>
-        <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat debitis impedit suscipit quisquam officiis, tempore in ab dignissimos incidunt laboriosam est autem laudantium numquam quidem fugiat mollitia hic ipsa non. Reiciendis tempore suscipit facere aspernatur mollitia est voluptas enim nostrum sint corrupti placeat labore sapiente quia aliquam pariatur sed, officia recusandae, voluptate doloribus! Nemo possimus, placeat rerum id fugiat quidem?</p>
-    </div>
-
-    <div data-aos="fade-up" class="about-image">
-        <img data-aos="fade-up" src="./images/about2.webp" alt="">
-    </div>
-</div>
-<!---about section end----->
-
-
-
-
-<!-----event card section-->
-<div data-aos="fade-up" class="event">
-
-
-    <div data-aos="fade-up" class="event-card1">
-        <div data-aos="fade-up" class="event-image">
-            <img src="./images/even2.webp" alt="">
-        </div>
-        <div data-aos="fade-up" class="event-text">
-            <h1>
-                Event 1: Lorem
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor, expedita, impedit similique animi at nulla ad ipsam cupiditate quis blanditiis. At repellendus aspernatur libero natus ut ipsam enim recusandae?
-            </p>
-            <a href="#">Explore</a>
+    <div class="heromain">
+        <div data-aos="fade-up" class="hero-text">
+            <h1 data-aos="fade-right">Get ALL The Event Details Of BFCET </h1>
+            <p data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, officia! Facilis, rem
+                quo? Ut, aperiam minima doloribus repellendus dolore consectetur asperiores debitis et ea rem quasi
+                aspernatur fugiat quaerat provident.</p>
+            <a data-aos="fade-right" href="#"> Explore Event</a>
         </div>
 
-    </div>
-    <div data-aos="fade-up" class="event-card1">
-        <div data-aos="fade-up" class="event-image">
-            <img src="./images/even2.webp" alt="">
-        </div>
-        <div data-aos="fade-up" class="event-text">
-            <h1>
-                Event 2: Lorem
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor, expedita, impedit similique animi at nulla ad ipsam cupiditate quis blanditiis. At repellendus aspernatur libero natus ut ipsam enim recusandae?
-            </p>
-            <a href="#">Explore</a>
-        </div>
-
-    </div>
-    <div data-aos="fade-up" class="event-card1">
-        <div data-aos="fade-up" class="event-image">
-            <img src="./images/even2.webp" alt="">
-        </div>
-        <div data-aos="fade-up" class="event-text">
-            <h1>
-                Event 3: Lorem
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor, expedita, impedit similique animi at nulla ad ipsam cupiditate quis blanditiis. At repellendus aspernatur libero natus ut ipsam enim recusandae?
-            </p>
-            <a href="#">Explore</a>
-        </div>
-
-    </div>
-
-
-
-</div>
-<!-----event card section end-->
-
-
-
-
-
-
-<!---previous event result-->
-
-<div data-aos="fade-up" class="prev-event">
-
-    <div data-aos="fade-up" class="prev-card">
-
-        <div data-aos="fade-up" class="part1">
-
-            <h1>
-                Previous Event Result:
-            </h1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem eaque officia, explicabo incidunt error, aperiam asperiores accusamus dolorum, 
-            </p>
-
-        </div>
-
-
-
-
-        <div data-aos="fade-up" class="part2">
-
-            <div class="winner-image">
-                <img src="./images/userprofile.png" alt="">
-
-            </div>
-            <div class="winner-text">
-                <h1>
-                    1st Position
-                </h1>
-                <p>
-                    
-                    Name: Jane Roy
-                    Branch: B.tech
-                    UID:222222
-
-                </p>
-            </div>
-
-        </div>
-
-
-        <div data-aos="fade-up" class="part3">
-            
-            <div class="winner-image">
-                <img src="./images/userprofile.png" alt="">
-            </div>
-            <div class="winner-text">
-                <h1>
-                    2nd Position
-                </h1>
-                <p>
-                    Name: Jane Roy
-                    Branch: B.tech
-                    UID:222222
-                    
-                </p>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-<!---previous event result end-->
-
-
-
-
-<div class="footer">
-    <img src="./images/bfgi.png" alt="" class="footer-image">
- <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Event</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Help</a></li>
-    <li><a href="#">About</a></li>
- </ul>
-
- <p>Follow us on insta @babfaridgroup</p>
-
- <p>@2022 Lorem</p>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-<script>
-    function onclickhamburger() {
-        document.getElementById("hambureger").classList.toggle("change");
-        document.getElementById("nav").classList.toggle("chnage");
-    }
-  </script>
   
-  
-  <script>
-    function myFunction() {
-        var x = document.getElementById("menu");
-  
-        if (x.style.display == "block") {
-            x.style.display = "none";
-        }
-        else {
-            x.style.display = "block";
-        }
-    }
-  </script>
-  
+        </div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-  </script>
+
+    </div>
+    <!----hero part end----->
+
+
+
+
+
+    <!---about section----
+    <div data-aos="fade-up" class="about">
+        <div data-aos="fade-up" class="about-text">
+            <h1 data-aos="fade-up">About</h1>
+            <p data-aos="fade-up">Do you know something worth sharing?
+                Are you wondering where and with whom to share?
+                This is the right place to be then..
+                Get insight of all the events of BFCET at one place, let go all the queries and just scroll to explore
+                and get all the Details of the Previous events youu have missed and always be aware for upcoming event
+            </p>
+        </div>
+
+        <div data-aos="fade-up" class="about-image">
+            <img data-aos="fade-up" src="./images/about2.webp" alt="">
+        </div>
+    </div>
     
+    
+    
+    --about section end----->
+
+
+
+    <!----types of event cards-->
+
+    <div class="type-heading">
+        <h1 class="heading">Types of EVENTS</h1>
+
+
+    <div data-aos="fade-up" class="event">
+
+
+        <div data-aos="fade-up" class="type-event-card1">
+            <div data-aos="fade-up" class="type-event-image">
+                <img class="type-image1" src="./images/cultural.jpg" alt="">
+            </div>
+            <div data-aos="fade-up" class="type-event-text">
+                <h1>
+                    Non-Technichal Event
+                </h1>
+                <p>
+                    Cultural events are events designed for entertainment and enjoyment of a more or less wide audience. They are events of some importance related to some branch ...
+
+                </p>
+                <a href="non-tech.html">Explore</a>
+            </div>
+
+        </div>
+        <div data-aos="fade-up" class="type-event-card1">
+            <div data-aos="fade-up" class="type-event-image">
+                <img class="type-image2" src="./images/sports2.jpg" alt="">
+            </div>
+            <div data-aos="fade-up" class="type-event-text">
+                <h1>
+                    Sports Event
+                </h1>
+                <p>
+                    The Sports Events are : badminton , cricket , football , basketball . volleyball .......
+                </p>
+                <a href="./non-tech.html">Explore</a>
+            </div>
+
+        </div>
+        <div data-aos="fade-up" class="type-event-card1">
+            <div data-aos="fade-up" class="type-event-image">
+                <img class="type-image3" src="./images/tech-event.jpg" alt="">
+            </div>
+            <div data-aos="fade-up" class="type-event-text">
+                <h1>
+                    Technichal Events
+                </h1>
+                <p>
+                  The Technichal Events Which are held at Baba Farid College of enegineering and technology are : Hackathon , Codeveista , roboSoccer , Cad Competettion ....
+                </p>
+                <a href="non-tech.html">Explore</a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+    <!----types of event cards end-->
+
+
+
+
+    <!---Upcoming Events-->
+
+
+
+
+
+    <h1 data-aos="fade-up" class="up-heading">
+        Upcoming Events
+    </h1>
+    <div class="upco">
+
+
+       
+
+        <div data-aos="fade-up" class="upco-cr">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/convoevent1.jpg" alt="" class="crousel-image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/convoevent1.jpg" alt="" class="crousel-image">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/convoevent1.jpg" alt="" class="crousel-image">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+
+
+
+    </div>
+    <!---Upcoming Events end-->
+
+
+
+
+    <!---previous event result-->
+
+    <div data-aos="fade-up" class="prev-event">
+
+        <div data-aos="fade-up" class="prev-card">
+
+            <div data-aos="fade-up" class="part1">
+
+                <h1>
+                    Previous Event Tech-o-Fest:
+                </h1>
+                <p>
+                    CSI club is organising "TECH 'O' FEST" Including 3 events FASTECH (coding) TECH'O'LAUGH (memes)
+                    PRESENTECH (presentation & pitching)
+                </p>
+
+            </div>
+
+
+
+
+            <div data-aos="fade-up" class="part2">
+
+                <div class="winner-image">
+                    <img src="./images/userprofile.png" alt="">
+
+                </div>
+                <div class="winner-text">
+                    <h1>
+                        1st Position
+                    </h1>
+                    <p>
+
+                        Jatin bansal
+                        Branch: B.tech
+                        UID:222222
+
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div data-aos="fade-up" class="part3">
+
+                <div class="winner-image">
+                    <img src="./images/userprofile.png" alt="">
+                </div>
+                <div class="winner-text">
+                    <h1>
+                        2nd Position
+                    </h1>
+                    <p>
+                        Name: MehakDeep Singh
+                        Branch: B.tech
+                        UID:222222
+
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---previous event result end-->
+
+
+
+
+    <div class="footer">
+      
+
+        <p>2022 Baba farid College Of Engineering And Technology. All Right Reserved</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <script>
+        function onclickhamburger() {
+            document.getElementById("hambureger").classList.toggle("change");
+            document.getElementById("nav").classList.toggle("chnage");
+        }
+    </script>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu");
+
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
-
-
-
-
-</html> 
+</html>
