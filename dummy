@@ -1,0 +1,65 @@
+
+
+
+
+    <!-----event card section-->
+    <div data-aos="fade-up" class="event">
+
+
+        <div data-aos="fade-up" class="event-card1">
+            <div data-aos="fade-up" class="event-image">
+                <img class="image1" src="./images/techevent3.jpeg" alt="">
+            </div>
+            <div data-aos="fade-up" class="event-text">
+                <h1>
+                    Tech-o-Fest
+                </h1>
+                <p>
+                    CSI club is organising "TECH 'O' FEST"
+                    Including 3 events
+                    FASTECH (coding)
+                    TECH'O'LAUGH (memes)
+                    PRESENTECH (presentation & pitching)
+                </p>
+                <a href="#">Explore</a>
+            </div>
+
+        </div>
+        <div data-aos="fade-up" class="event-card1">
+            <div data-aos="fade-up" class="event-image">
+                <img src="./images/convoevent1.jpg" alt="">
+            </div>
+            <div data-aos="fade-up" class="event-text">
+                <h1>
+                    Annual Convocation
+                </h1>
+                <p>
+                    Annual Convocation and alumni meet 2022 for the B.tech student of batch 2017,2018,2019 at baba farid
+                    group of institution
+                </p>
+                <a href="#">Explore</a>
+            </div>
+
+        </div>
+        <div data-aos="fade-up" class="event-card1">
+            <div data-aos="fade-up" class="event-image">
+                <img src="./images/convoevent2.jpeg" alt="">
+            </div>
+            <div data-aos="fade-up" class="event-text">
+                <h1>
+                    internatinol Confrence
+                </h1>
+                <p>
+                    8th internatinol confrence on computing communication and security held at baba farid college of
+                    engineering and technology
+                </p>
+                <a href="#">Explore</a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-----event card section end-->
+

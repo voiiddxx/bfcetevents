@@ -1,0 +1,1519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-overlay-color{
+    background-color: rgba(31,39,43,0.75);
+    opacity: 70%;
+    height: 599px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav-bar {
+    z-index: 55;
+    margin-top: -612px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    font-family: Anton;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-bar img {
+    height: 53px;
+    float: left;
+    margin-left: 100px;
+}
+
+.nav-bar .bfgi {
+    border-radius: 0%;
+    height: 55px;
+    width: auto;
+    margin-left: 225px;
+
+}
+
+
+.menu-right {
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    margin: 24px 10px 7px 44px;
+    list-style: none;
+}
+
+ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    opacity: 99%;
+
+}
+
+ul li a:hover {
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+span {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 28px 69px;
+}
+.h-vid{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+video{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.heromain {
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.hero-text {
+    flex-basis: 40%;
+    height: 350px;
+    margin-right: 650px;
+    margin-top: 64px;
+}
+
+
+
+.hero-text h1 {
+    opacity: 150%;
+    z-index: 55;
+    font-size: 55px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+}
+
+.hero-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15;
+}
+
+.cr-image{
+    height: auto;
+    width: 65%;
+    margin-left: 114px;
+}
+
+.cr-image3{
+    height: auto;
+    width: 100%;
+}
+
+.hero-text a {
+    text-decoration: none;
+    font-style: normal;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.hero-text a:hover {
+    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: #0031ba;
+    transition: 0.5s;
+}
+
+.hero-image {
+    flex-basis: 40%;
+}
+
+
+
+
+/*===about section===*/
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.about-text {
+    flex-basis: 40%;
+    text-align: justify;
+}
+
+.about-text h1 {
+    color: rgb(42, 42, 235);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-text p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+/*===event cards====*/
+.event {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.event-card1 {
+    height: 450px;
+    width: 400px;
+    background-image: linear-gradient(to right, #0031ba, 
+    #2876F9);
+    border-radius: 3%;
+    display: flex;
+    padding-bottom: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.event-image{
+    flex-basis: 50%;
+    
+}
+
+
+.event-image img {
+    height: auto;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 50px;
+}
+
+
+.event-image .image1{
+
+    height: auto;
+    width: 70%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.event-text{
+    flex-basis: 40%;
+    margin-left: 10%;
+}
+
+.event-text h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.event-text p{
+    color: white;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.event-text a{
+    text-decoration: none;
+    font-style: normal;
+    background-color: white;
+    color: #0031ba;
+    border-radius: 3%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.event-text a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.event-card1:hover{
+    height: 460px;
+    width: 410px;
+    transition: 0.5s;
+}
+
+
+
+
+/*===types of event card===*/
+.type-heading{
+    background: url(./images/loginmaindark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.heading {
+
+    text-align: center;
+    color: white;
+    padding-top:  42px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.type-event {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.type-event-card1 {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    padding-bottom: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+
+
+
+
+.type-event-image1{
+    height: 288px;
+    width: 400px;
+    background: url(./images/vibgyor.jpg);
+    background-size: cover;
+    background-position-x: -211px;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.type-event-image2{
+
+        height: 288px;
+        width: 400px;
+        background: url(./images/academics.avif);
+        background-size: cover;
+        margin-left: 0px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    
+    
+    
+}
+
+.type-event-image3{
+    height: 288px;
+    width: 400px;
+    background: url(./images/tech-event.jpg);
+    background-size: cover;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.type-event-image .type-image2 {
+    height: 282px;
+    width: 159%;
+    margin-left: -74px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.type-event-image .type-image3 {
+    height: 282px;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.type-event-text{
+    margin-top: 10px;
+    flex-basis: 40%;
+    margin-left: 2%;
+}
+
+.type-event-text h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.type-event-text p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.type-event-text a{
+    text-decoration: none;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    border-radius: 3%;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.type-event-text a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.type-event-card1:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+
+
+
+
+/*====upcoming event crousel===*/
+.upco{
+    background-image: url(./images/loginmaindark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+
+}
+.up-heading{
+    text-align: center;
+    margin-top: 42px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+
+.crousel1{
+    flex-basis: 30%;
+}
+
+.crousel2{
+    flex-basis: 30%;
+}
+
+
+.crousel3{
+    flex-basis: 30%;
+}
+
+.crousel-image{
+    width: 100%;
+    height: 25%;
+}
+
+
+.crousel2-image{
+    width: 25%;
+    height: 25%;
+}
+
+
+
+.crousel3-image{
+    width: 25%;
+    height: 25%;
+}
+
+
+/*====prev-event===*/
+
+.prev-card{
+    height: 200px;
+    width: 90%;
+    margin: 60px;
+    border-radius:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-image: linear-gradient(to right, #000000, #232020);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.part1{
+    flex-basis: 30%;
+}
+
+
+.part1 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.part1 p{
+    color: rgb(140, 138, 138);
+    font-size: 15px;
+}
+
+.part2{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.part3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.winner-text h1{
+    font-size: 25px;
+    color: white;
+}
+
+.winner-text p{
+    color: rgb(136, 132, 132);
+}
+
+.winner-image img{
+    height: auto;
+    width: 65%;
+}
+
+
+.part3{
+    flex-basis: 30%;
+}
+
+
+.button-for-result{
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(22, 22, 184);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    align-items: center;
+    text-align: center;
+    margin-left: 45%;
+}
+
+
+
+
+/*==query==detail===*/
+/*====login-form===*/
+
+form{
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  
+  .contact-container{
+      position: relative;
+      top: 10vh;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 100px;
+        background: url(./images/loginmaindark.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  
+  .contact-container:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: url("img/bg.jpg") no-repeat center;
+      background-size: cover;
+      filter: blur(50px);
+      z-index: -1;
+  }
+  .contact-box{
+      max-width: 1166px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: transparent;
+      opacity: 50%;
+    margin-top: 40px;
+  }
+  
+  .left{
+      background: url("./images/bfgi.png") no-repeat center;
+      background-size: contain;
+      background-color: transparent;
+      height: 100%;
+  }
+  
+  .right{
+      background: transparent;
+      padding: 25px 40px;
+  }
+  
+  .contact-h2{
+      color: white;
+      position: relative;
+      padding: 0 0 10px;
+      margin-bottom: 10px;
+  }
+  
+  .contact-h2:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px;
+      background-color: #f8f8f8;
+  }
+  
+  .field{
+      width: 100%;
+      border: 2px solid rgba(0, 0, 0, 0);
+      outline: none;
+      background-color: rgb(255, 255, 255);
+      padding: 0.5rem 1rem;
+      font-size: 1.1rem;
+      margin-bottom: 22px;
+      transition: .3s;
+  }
+  
+  .field:hover{
+      background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea{
+      min-height: 150px;
+  }
+  
+  .btnc{
+      width: 100%;
+      padding: 0.5rem 1rem;
+      background-color: #000000;
+      color: rgb(248, 248, 248);
+      font-size: 1.1rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: .3s;
+  }
+  
+  .btnc:hover{
+      background-color: #0b0d0e;
+  }
+  
+  .field:focus{
+      border: 2px solid rgba(30,85,250,0.47);
+      background-color: #fff;
+  }
+  
+  
+  
+  
+  /*====login form end===*/
+  
+  
+  
+  
+    
+.footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+.footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.footer-image{
+    height: auto;
+    width: 15%;
+    margin-top: 30px;
+    
+}
+
+
+/*===login form===-*/
+
+.login-page{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 600px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.login-text{
+    background-color: white;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-image{
+    background: linear-gradient(
+        white,white
+    );
+    flex-basis: 50%;
+}
+.loginhero{
+    height: auto;
+    width: 100%;
+}
+
+.login-heading h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    font-family: cursive;
+
+}
+.login-heading h1 span{
+    color: blue;
+}
+
+.login-subtittle h2{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.email-label{
+    margin-top: 10px;
+    padding: 15px;
+}
+.email-label input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.login-password{
+    margin-top: 2px;
+    padding: 10px;
+    
+}
+
+.login-password input{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.forgot-password{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 20px;
+    width: 100%;
+    
+}
+.forgot-left{
+    height: 2px;
+    width: 100%;
+    flex-basis: 80;
+}
+.forgot-right{
+    flex-basis: 60%;
+}
+
+.forgot-right a{
+    text-decoration: none;
+    color: #0647D4;
+    font-family: cursive;
+
+}
+.forgot-right a:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+.sign{
+    margin-top: 20px;
+
+}
+
+input[type="submit"]{
+    align-items: center;
+    width: 150%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    
+    background-color: #7395df;
+    border-radius: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: .5s;
+}
+
+
+.already-account{
+    margin-top: 35px;
+
+}
+
+.already-account p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.already-account span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16181c;
+    cursor: pointer;
+
+}
+
+.already-account span:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+
+
+/*===signup form===*/
+
+
+.login-body{
+    background: url("./images/loginmaindark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container{
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+    padding: 50px;
+    border-radius: 10px;
+}
+  
+.login-container h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-bottom: 1px solid silver;
+}
+
+.login-container .text-input{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+border-bottom: 2px solid white;
+margin: 30px , 0;
+}
+
+.text-input input{
+    width: 100%;
+    padding: 25px;
+    height: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.text-input label{
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: -50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.text-input span::before{
+    content:  ' ';
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    transition: .5s;
+    background: rgb(255, 255, 255);
+}
+
+
+.text-input input:focus ~ label,
+.text-input input:valid ~ label{
+    position: absolute;
+    top: -4px;
+    color: white;
+}
+
+
+.text-input input:focus ~ span::before,
+.text-input input:valid ~ span::before{
+
+    width: 100%;
+}
+
+.fpass{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.fpass a{
+    text-decoration: none;
+    color: rgb(186, 183, 183);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.fpass a:hover{
+    color: white;
+    transition: .5s;
+}
+
+
+input[type="submit"]{
+
+    width: 100%;
+    height: 50px;
+    background: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0035D4;
+    border-radius: 40px;
+    border: 1px solid #0035D4;
+    font-weight: 600;
+}
+
+
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+
+.register-link{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.register-link a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register-link a:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+  /*====login form end===*/
+
+
+  /*===event page===*/
+  .event-page{
+    background-image: url(./images/loginmaindark.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+  }
+  
+
+  
+
+.e-nav-bar{
+    
+    background: #202020;
+    opacity: 70%;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: Anton;
+    
+}
+.e-nav-bar img{
+    height:55px;
+    float: left;
+    margin-left: 20px;
+    opacity: 100%;
+}
+
+.e-menu-right{
+    text-align: right;
+}
+ul li {
+    display: inline-block;
+    margin: 25px 60px 4px 42px;
+    list-style: none;
+  }
+ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+
+}
+ul li a:hover{
+    color: rgb(115, 93, 3);
+    transition: 0.2s ease-in;
+    opacity: 100%;
+}
+
+span{
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+.e-navbar ul{
+  display: flex;  
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 28px 69px;
+}
+
+
+
+  
+  .event-page-main{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(93, 91, 91);
+    opacity: 50%;
+    z-index: -1;
+
+  }
+
+  .event-page-heading{
+    text-align: center;
+    align-items: center;
+    padding-top: 138px;
+    font-size: 35px;
+    color: white;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+  .category{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .category h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+
+  .category p{
+    text-align: center;
+    color: white;
+  }
+
+
+.cate-div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cate-div .cate1{
+    background-color: rgb(63, 17, 201);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+
+.cate-div .cate2{
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+
+
+.cate-div .cate3{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+
+.card-headd{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: white;
+
+}
+.event-page-card{
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.page-card1 {
+    height: 590px;
+    width: 391px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+   
+
+}
+.card-page-image{
+    flex-basis: 50%;
+    background: url(./images/techevent3.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.card-page-text{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.card-page-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+
+}
+
+.card-page-text p{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+
+.card-page-text a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+/*===academics===*/
+.cateb{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.catea{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.catec{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+
+.academics-page-card1 {
+    height: 590px;
+    width: 391px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+   
+
+}
+.academics-card-page-image{
+    flex-basis: 50%;
+    background: url(./images/convoevent1.jpg);
+    background-position: 0px -125px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.academics-card-page-text{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.academics-card-page-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+
+}
+
+.academics-card-page-text p{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+
+.academics-card-page-text a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+/*===non-tech==event===*/
+
+.cateIII{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.cateII{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.cateI{
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+
+.non-tech-page-card1 {
+    height: 590px;
+    width: 391px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+   
+
+}
+.non-tech-card-page-image{
+    flex-basis: 50%;
+    background: url(./images/vibgyor.jpg);
+    background-position: -258px -3px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.non-tech-card-page-text{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.non-tech-card-page-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+
+}
+
+.non-tech-card-page-text p{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+}
+
+.non-tech-card-page-text a{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+/*====mediaquery=====*/
+@media only screen and (max-width:700px) {
+
+
+    span {
+        display: block
+    }
+
+    .nav-bar img {
+        height: 57px;
+        width: auto;
+        margin-left: 7px;
+    }
+
+    .nav-bar .bfgi {
+        height: 44px;
+        margin-left: 43px;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+}
